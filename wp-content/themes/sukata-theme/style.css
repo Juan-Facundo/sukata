@@ -10,9 +10,35 @@ Version:        0.1.0
 @import url("../itheme2/style.css");
 
 body {
+  //background: none;
+  //background-color: black;
+}
+
+body.single-gimnasios-sukata {
   background: none;
   background-color: black;
 }
+
+#content {
+  background-color: #111;
+}
+
+.widget {
+  background-color: #222;
+}
+
+a {
+  color: #dad;
+}
+
+#nav-bar {
+  background-color: #511;
+}
+
+.commentwrap {
+  background-color: #322;
+}
+
 div.contenedor_centro * {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -52,7 +78,7 @@ iframe.mapa_centro {
 
 div.desc_centro {
   width: 50%;
-  height: 350px;
+  min-height: 350px;
   float: left;
   padding: 5px;
 }
